@@ -9,7 +9,7 @@ const server = app.listen(9000, () => {
 
 // Настраиваем PeerJS
 const peerServer = ExpressPeerServer(server, {
-  path: "/peerjs",
+//   path: "/peerjs",
   allow_discovery: true,
 });
 
